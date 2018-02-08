@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="BMI計算機" />
+    <meta name="keywords" content="健康,BMI,體重,身高">
+    <link rel="stylesheet" href="css/bmi.css">
+    <link rel="shortcut icon" href="img/hospital.ico">
+    <title>BMI健康全紀錄</title>
+</head>
+<body>
+    <div class="header">
+        <img src="img/BMICLogo.png" alt="" class="hlogo">
+        
+        <div class="data">
+                <p>身高cm</p>
+                <input type="text" placeholder="請輸入身高" id="indatacm">
+                <p>體重kg</p>
+                <input type="text" placeholder="請輸入體重"id="indatakg">
+        </div class="move">
+            <input type="button" value="儲存結果" class="savebtn">
+            <a href="#" onclick="javascript:window.location.reload()" class="reset">重新計算</a>
+        <div class="btnor"><input type="button" value="看結果" class="resultbtn"></div>
+       
+    </div>
+    <div class="clearfix"></div>
+    <p class="Title">BMI紀錄</p>
+    <div class="record">  
+    </div>
+
+    <div class="footer">
+        <img src="img/bmilogo.png" alt="" class="flogo">
+    </div>
+
+    <script src="js/bmi.js"></script>
+</body>
+</html>

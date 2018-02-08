@@ -1,0 +1,389 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+	max-width:1024px;
+	font-family: 微軟正黑體;
+	margin: auto;
+}
+
+.header{
+	background-color: #424242;
+	height: 300px;
+}
+
+.hlogo{
+	float: left;
+	margin-left: 150px;
+	margin-top:92px;
+	
+}
+
+.clearfix{
+	clear: both;
+}
+
+.data{
+	color:#FFD366;
+	font-size: 18px;
+	padding-top: 92px;
+	padding-left: 70px;
+	padding-right: 70px;
+	float: left;
+	line-height: 1.5;
+	
+}
+
+#indatacm{
+	width: 230px;
+	height: 28px;
+    background: rgba(255,255,255,0.18);
+	color: rgba(255,255,255,0.50);
+	border: 2px solid #FFD366;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#indatakg{
+	width: 230px;
+	height: 28px;
+    background: rgba(255,255,255,0.18);
+	color: rgba(255,255,255,0.50);
+	border: 2px solid #FFD366;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+
+.resultbtn{
+	margin-right: 40px;
+	float: right;
+	width: 110px;
+	height: 110px;
+	background-color: #FFD366;
+	border-radius: 50%;
+	font-size: 22px;
+	font-family:微軟正黑體;
+	cursor: pointer; 
+	margin-top: 92px;
+}
+
+
+.savebtn{
+	float: right;
+	width: 85px;
+	height: 40px;
+	background-color: #FFD366;
+	border-radius: 5px;
+	font-family:微軟正黑體;
+	cursor: pointer; 
+	margin-top: 150px;
+	border-color: white;
+	margin-right: 15px;
+	font-size:16px;
+}
+
+.reset{
+	float: right;
+	color:black;
+	text-decoration: none;
+	width: 83px;
+	height: 38px;
+	background-color: #FFD366;
+	border-radius: 5px;
+	font-family:微軟正黑體;
+	cursor: pointer; 
+	margin-top: 150px;
+	border: white solid 1px;
+	text-align: center;
+	line-height:2.5;
+	margin-right: 10px;
+}
+
+.box1{
+	margin-right: 50px;
+	float: right;
+	width: 100px;
+	height: 100px;
+	background-color:#424242;
+	border-radius: 50%;
+	font-family:微軟正黑體;
+	margin-top: 92px;
+	border:#31BAF9 5px solid ;
+	color: #31BAF9;
+
+}
+
+.box2{
+	margin-right: 50px;
+	float: right;
+	width: 100px;
+	height:100px;
+	background-color:#424242;
+	border-radius: 50%;
+	font-family:微軟正黑體;
+	margin-top: 92px;
+	border:#86D73F 5px solid ;
+	color: #86D73F ;
+
+}
+
+.box3{
+	margin-right: 50px;
+	float: right;
+	width: 100px;
+	height: 100px;
+	background-color:#424242;
+	border-radius: 50%;
+	font-family:微軟正黑體;
+	margin-top: 92px;
+	border: #FF982D 5px solid ;
+	color:#FF982D  ;
+}
+
+.box4{
+	margin-right: 50px;
+	float: right;
+	width: 100px;
+	height: 100px;
+	background-color:#424242;
+	border-radius: 50%;
+	font-family:微軟正黑體;
+	margin-top: 92px;
+	border: #FF1200 5px solid ;
+	color: #FF1200 ;
+}
+
+.record{
+	height: 500px;
+}
+
+.Title{
+	font-size: 24px;
+	padding: 60px;
+	text-align: center;
+}
+.footer{
+	background-color: #FFD366;
+	height: 90px;
+    max-width: 100%;
+	text-align: center;
+}
+
+.flogo{
+	padding: 15px;
+}
+
+.notebook{
+	margin: auto;
+	width: 700px;
+	height: 62px;
+	background-color:rgb(250, 246, 246);	
+	line-height: 3;
+	font-size: 20px;
+	margin-bottom: 3px;
+	
+}
+
+.small{
+	font-size: 13px;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+
+.add1{
+	height: 62px;
+	width: 5px;
+	background-color: #31BAF9 ;
+	float: left;
+}
+
+.add2{
+	height: 62px;
+	width: 5px;
+	background-color:#86D73F;
+	float: left;
+	
+}
+
+.add3{
+	height: 62px;
+	width: 5px;
+	background-color:#FF982D;
+	float: left;	
+}
+
+.add4{
+	height: 62px;
+	width: 5px;
+	background-color:#FF1200;
+	float: left;	
+}
+
+@media only screen and (max-width:1012px){
+.data{
+	padding-left: 110px;
+	padding-right: 200px; 
+}
+.hlogo{
+	float: left;
+	margin-left: 230px;
+	margin-top:92px;	
+}
+
+}
+
+@media only screen and (max-width:917px){
+	.data{
+		padding-left: 100px;
+		padding-right: 120px; 
+	}
+	.hlogo{
+		float: left;
+		margin-left: 230px;
+		margin-top:92px;	
+	}
+	
+	}
+
+	@media only screen and (max-width:827px){
+		.data{
+			padding-left: 100px;
+			padding-right: 120px; 
+		}
+		.hlogo{
+			float: left;
+			margin-left: 150px;
+			margin-top:92px;	
+		}
+		
+	}
+
+	@media only screen and (max-width:768px){
+	   .data{
+			padding-left: 250px;
+			padding-right: 190px; 
+	   }
+		.hlogo{
+				float: left;
+			    margin-left: 300px;
+			    margin-top:92px;
+			}
+		#indatacm{
+				background:none;
+				color:black;
+			}
+			
+		#indatakg{
+				background:none;
+				color:black;
+			}
+			
+			
+		}
+	@media only screen and (max-width:650px){
+		.data{
+				padding-left: 200px;
+				padding-right: 120px; 
+		   }
+		.hlogo{
+				float: left;
+				margin-left: 200px;
+				margin-top:92px;
+			}
+				
+		}
+	
+	@media only screen and (max-width:550px){
+			.data{
+					padding-left: 150px;
+					padding-right: 80px; 
+			   }
+			.hlogo{
+					float: left;
+					margin-left: 180px;
+					margin-top:92px;
+				}
+				
+			}
+
+	@media only screen and (max-width:400px){
+		.data{
+				padding-left: 50px;
+				padding-right: 30px; 
+			 }
+		.hlogo{
+			float: left;
+			margin-left:100px;
+			margin-top:92px;
+			}
+					
+		}
+	@media only screen and (max-width:320px){
+		.hlogo{
+			float: left;
+			margin-left:80px;
+			margin-top:92px;
+			}
+		.data{
+				padding-left: 20px;
+				padding-right: 20px; 
+			}
+		.resultbtn{
+			margin-right: 80px;	
+			}
+		
+		.savebtn{
+			margin-right: 30px;
+		}	
+		
+						
+		}
